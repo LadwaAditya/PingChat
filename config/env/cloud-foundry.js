@@ -33,8 +33,8 @@ module.exports = {
     options: {}
   },
   facebook: {
-    clientID: getCred('mean-facebook', 'id') || 'APP_ID',
-    clientSecret: getCred('mean-facebook', 'secret') || 'APP_SECRET',
+    clientID: getCred('mean-facebook', 'id') || '333941000063133',
+    clientSecret: getCred('mean-facebook', 'secret') || '9162f53df0d7d79b2981f36deacabc69',
     callbackURL: '/api/auth/facebook/callback'
   },
   twitter: {
@@ -43,8 +43,8 @@ module.exports = {
     callbackURL: '/api/auth/twitter/callback'
   },
   google: {
-    clientID: getCred('mean-google', 'id') || 'APP_ID',
-    clientSecret: getCred('mean-google', 'secret') || 'APP_SECRET',
+    clientID: getCred('mean-google', 'id') || '566875490636-36d6k011h794mpl6bmtlsbfh2i1da7hu.apps.googleusercontent.com',
+    clientSecret: getCred('mean-google', 'secret') || 'AZgMbiApk0O8U_VXejZro4T-',
     callbackURL: '/api/auth/google/callback'
   },
   linkedin: {
